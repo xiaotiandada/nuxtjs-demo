@@ -1512,25 +1512,24 @@
     serve-static "^1.14.1"
     workbox-cdn "^5.1.4"
 
-"@nuxtjs/vercel-builder@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/vercel-builder/-/vercel-builder-0.22.1.tgz#8128e22dd720a2da25737a8455b30fceb61a9ae0"
-  integrity sha512-mbf4ErZnFutAV/LOOQ/uh/wHvN8VNuewgAkSIjx5bC2ALNSZx2nvLpdkj3YYaZVlq0WLvxuuZtzRLRXYW7qqfg==
+"@nuxtjs/vercel-builder@0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/vercel-builder/-/vercel-builder-0.21.0.tgz#d3b38ca75b3779ba12ab8590c1b6ed97486bae18"
+  integrity sha512-Nt2egcQEJSAgEF0pf7VSVJ8bItwXn21vSNBMOYzr0UHHjJtR17FUl1VI8qbpcpngWqV7m+Ganm3eX5e5/10ggQ==
   dependencies:
-    "@nuxtjs/web-vitals" "^0.1.8"
-    "@vercel/build-utils" "2.11.0"
-    "@vercel/node-bridge" "2.1.0"
+    "@nuxtjs/web-vitals" "^0.1.4"
+    "@vercel/build-utils" "2.9.0"
+    "@vercel/node-bridge" "1.3.2"
     consola "2.15.3"
-    execa "^5.1.1"
+    execa "^5.0.0"
     fs-extra "9.1.0"
-    jiti "^1.12.3"
+    jiti "^1.3.0"
     rc9 "^1.2.0"
     replace-in-file "^6.2.0"
     resolve-from "^5.0.0"
-    semver "7.3.5"
-    ufo "^0.7.9"
+    semver "7.3.4"
 
-"@nuxtjs/web-vitals@^0.1.8":
+"@nuxtjs/web-vitals@^0.1.4":
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/@nuxtjs/web-vitals/-/web-vitals-0.1.8.tgz#1c1dbfbfcc0a88a5cd014229391e59f0802a2d7f"
   integrity sha512-5oy0DCMV7a5xi5KwDx3I4/oGDNybPCMkjMVAFfY2sheikWQ6XAO3bOYKLyNnujoaRQJOW+2+N+PUznVbDE88nA==
@@ -1697,15 +1696,15 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vercel/build-utils@2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-2.11.0.tgz#bedd4dd248a1536e2e803a0a68315a576a0bb539"
-  integrity sha512-kbDvtZsWUZCT9h7jhyRfJ8F57Nad5E0T6QtH82vBhzvCp44TohZk+ncZGoaQO2C+6kEhGFTyauQ0ROv1ayX2jA==
+"@vercel/build-utils@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-2.9.0.tgz#2bb5def3df7080a892d86e25c7bb1af35f2b8964"
+  integrity sha512-cuLqv7dI1v8TqIJYu3nR4S9FAJZoGPu3ZfV+y498gVUDpwtcAQ5sdWkiqS7jPIHG03APy6rR2cEO7sYm6Ydudw==
 
-"@vercel/node-bridge@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-2.1.0.tgz#a6b7d315b5ce8ab31ed57ed69a1c28c3f7a19a73"
-  integrity sha512-FEjZ9he0oYlyELXtvZ7QEOxCV7Nhp4Xw2zZzGMRk2NnlfNtGOkZ8VJ/AAj5K+ha+KxQgU8ke38pqy0hMe6WkcQ==
+"@vercel/node-bridge@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-1.3.2.tgz#63b8f2b26ad078ee64b645313052727c63f7dfb5"
+  integrity sha512-lkA6gaSXwFOFtRWFF0Y7AGHyOjgBBik8oH4YKj03vs2mE5P7YGFemEmHZUEWZAVDVLShS5hGMA0q/U0hIdetuA==
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -4176,7 +4175,7 @@ execa@^4.1.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^5.0.0, execa@^5.1.1:
+execa@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
@@ -4981,11 +4980,6 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-husky@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
-  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
-
 iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -5487,7 +5481,7 @@ jimp-compact@^0.16.1:
   resolved "https://registry.yarnpkg.com/jimp-compact/-/jimp-compact-0.16.2.tgz#650bf90698eb7af797e20bf5f5cdccd137e7d08a"
   integrity sha512-F/r0L283J46xiGUEvUb3jxUsei7aB94g3NRIMuJ4WhbpEcJV2U5GpaUNJLnBiOP2+x4lLTI4UiRVrmbrXQAOMA==
 
-jiti@^1.12.3, jiti@^1.9.2:
+jiti@^1.3.0, jiti@^1.9.2:
   version "1.12.9"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.12.9.tgz#2ce45b265cfc8dc91ebd70a5204807cf915291bc"
   integrity sha512-TdcJywkQtcwLxogc4rSMAi479G2eDPzfW0fLySks7TPhgZZ4s/tM6stnzayIh3gS/db3zExWJyUx4cNWrwAmoQ==
@@ -8141,6 +8135,13 @@ semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
+
+semver@7.3.4:
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
+  integrity sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==
+  dependencies:
+    lru-cache "^6.0.0"
 
 semver@7.3.5, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5:
   version "7.3.5"
